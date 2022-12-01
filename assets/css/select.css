@@ -7,8 +7,8 @@
     -moz-appearance: none;
     background: url(/assets/img/sort-down.png) no-repeat center right 5px ;
     background-size: 15px;
-    border: 1px solid var(--cor-principal-10);
-    background-color: var(--cor-principal-10);
+    border: 1px solid var(--cor-texto-40);
+    background-color: var(--cor-texto-95);
     color: var(--cor-principal-60);
     font-size: 16px;
     font-family: 'Barlow';

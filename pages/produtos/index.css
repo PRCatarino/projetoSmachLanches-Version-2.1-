@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+@import url(/assets/css/button.css);
+@import url(/assets/css/reset.css);
+@import url(/assets/css/color.css);
+@import url(/assets/css/select.css);
+@import url(/assets/css/input.css);
+@import url(/assets/css/aside.css);
+@import url(/assets/css/container.css);
+@import url(/assets/css/table.css);
+@import url(/assets/css/titlePage.css);
+@import url(/assets/css/label.css);
+@import url(/assets/css/noRequest.css);
+
+.pageAllProducts{
+    padding: 20px 10px 0px 30px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.newProduct{
+    width: 100%;
+}
+.newProduct > div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+}
+.codProduct{
+    width: calc(20% - 30px);
+    float: left;
+    margin-right: 15px;
+}
+.product{
+    width: 60%;
+    float: left;
+    margin-right: 15px;
+}
+.price{
+    width: 20%;
+}
+#codeProduct, #newProduct, #newPrice{
+    width: 100%;
+}
+.actionNewProduct{
+    display: flex;
+    justify-content: end;
+    margin-bottom:20px;
+    gap: 10px;
+}
+.cancel{
+    border:none;
+    color: var(--cor-primary-46);
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: bold;
+}
+.cancel:hover{
+    background-color: var(--cor-primary-86);
+}
+
+.saveProduct{
+    background-color: var(--cor-primary-46);
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+.saveProduct:hover{
+    background-color: var(--cor-primary-46);
+}
+.codeProductTB{
+    width:15% ;
+}
+.nameTB{
+    width:50%;
+}
+.priceTB{
+    width:10%;
+}
+.actionTB{
+    width:15%;
+}
+

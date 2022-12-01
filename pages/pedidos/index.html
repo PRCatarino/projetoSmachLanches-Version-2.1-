@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js" defer type="module"></script>
+  <link rel="stylesheet" href="./index.css"/>
+  <title>SMACH LANCHES</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="asideGroup">
+      <div>
+        <div class="logo">
+          <img src="/assets/img/logo/logo.png" alt="png" />
+        </div>
+        <div class="orderedButtons">
+          <button onclick="location.href='http://127.0.0.1:5502/pages/pedidos/'" class="pedidos">Pedidos</button>
+          <button onclick="location.href='http://127.0.0.1:5502/pages/produtos/'" class="produtos">Produtos</button>
+        </div>
+      </div>
+      <div class="operator">
+        <p>Operador: Marilucia</p>
+        <p>Data - Hora: 12/08/2022 - 13:29</p>
+        <p>Versão: 1.0</p>
+      </div>
+    </aside>
+    <section class="pageNewRequest">
+      <h1 class="titlePage">Novo pedido</h1>
+
+      <div class="consumptionType">
+          <label for="delivery">Tipo de consumo</label>
+          <input type="radio" name="consumptionType" id="delivery" value="Delivery" checked>Delivery
+          <input type="radio" name="consumptionType" id="salao" value="Salão">Salão
+      </div>
+
+      <div class="searchProduct">
+        <label for="">Busca produto</label>
+        <input type="number" maxlength="4" class="inputMain" id="productCode" placeholder="Código do produto">
+        <button class="buttonMain">Buscar</button>
+      </div>
+      <div class="infoProduct">
+
+        <div class="groupQuantity">
+          <label for="quantity">Quantidade</label>
+          <input type="number" placeholder="0" id="quantity" class="inputMain" min="0" value="0">
+        </div>
+
+        <div class="groupProduct">
+          <label for="product">Produto</label>
+          <input type="text" disabled placeholder="Nome do produto"class="inputMain" id="product"/>
+        </div>
+
+        <div class="groupPrice">
+          <label for="price">Preço</label>
+          <input type="text" disabled placeholder="R$ 00,00" class="inputMain" id="price">
+        </div>
+
+      </div>
+      <div class="addProduct">
+        <button class="buttonMain" id="addProduct" >Adicionar produto</button>
+      </div>
+      <table id="bag">
+        <tr>
+          <th class="code">Código</th>
+          <th class="product">Produto</th>
+          <th class="quantity">Quantidade</th>
+          <th class="price">Valor</th>
+        </tr>
+      </table>
+      <div class="noRequest">
+        <img  src="/assets/img/Icons/produtos_cesta_vazia.png"/>
+        <h1>Não temos produtos para mostrar</h1>
+      </div>
+      <div class="actionPage">
+        <button class="cancel buttonMain">cancelar</button>
+        <button class="saveOrder buttonMain" onclick="location.href='/'">Salvar pedido</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

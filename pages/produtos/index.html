@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>SMACH LANCHES</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="asideGroup">
+      <div>
+        <div class="logo">
+          <img src="/assets/img/logo/logo.png" alt="png" />
+        </div>
+        <div class="orderedButtons">
+          <button onclick="location.href='http://127.0.0.1:5502/pages/pedidos/'" class="pedidos">Pedidos</button>
+          <button onclick="location.href='http://127.0.0.1:5502/pages/produtos/'" class="produtos">Produtos</button>
+        </div>
+      </div>
+      <div class="operator">
+        <p>Operador: Marilucia</p>
+        <p>Data - Hora: 12/08/2022 - 13:29</p>
+        <p>Versão: 1.0</p>
+      </div>
+    </aside>
+    <section class="pageAllProducts">
+      <h1 class="titlePage">Todos os produtos</h1>
+
+      <div class="newProduct">
+        <div class="codProduct">
+          <label for="codeProduct">Cód.produto</label>
+          <input type="number" disabled class="inputMain" id="codeProduct">
+        </div>
+
+        <div class="product">
+          <label for="newProduct">Produto</label>
+          <input type="text" class="inputMain" id="newProduct">
+        </div>
+
+        <div class="price">
+          <label for="newPrice">Preço</label>
+          <input type="text" class="inputMain" id="newPrice">
+        </div>
+      </div>
+      <div class="actionNewProduct">
+        <button class="buttonMain cancel">Cancelar</button>
+        <button class="buttonMain saveProduct" onclick="location.href=''">Salvar produto</button>
+      </div>
+      <table>
+        <tr>
+          <th class="codeProductTB">Cod.produto</th>
+          <th class="nameTB">Nome</th>
+          <th class="priceTB">Preço</th>
+          <th class="actionTB">Ação</th>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+    border-top: 1px solid var(--cor-texto-60);
+    border-bottom: 1px solid var(--cor-texto-60);
+}
+th{
+    padding: 10px;
+    background-color:var(--cor-texto-95);
+    font-size:18px;
+    text-align: start;
+}

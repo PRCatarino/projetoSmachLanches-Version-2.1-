@@ -32,7 +32,7 @@
      /* status color */
 
     --status-danger:4, 100%;
-    --status-success:133, 100%,
+    --status-success:133, 100%;
     --status-alert:47, 100%;
 
     --status-danger-26: hsl(var(--status-danger), 26%);
@@ -57,5 +57,6 @@
     --status-alert-56: hsl(var(--status-alert), 56%);
     --status-alert-66: hsl(var(--status-alert), 66%);
     --status-alert-76: hsl(var(--status-alert), 76%);
+    --status-alert-86: hsl(var(--status-alert), 86%);
   }
 

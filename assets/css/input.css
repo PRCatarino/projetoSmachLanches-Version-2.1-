@@ -1,9 +1,11 @@
+@import url(/assets/css/color.css);
+
 .inputMain{
-    height: 38px;
-    border-radius:8px;
+    height: 32px;
+    border-radius:7px;
     padding:2px 5px 2px 16px;
     color: var(--cor-texto-50);
-    border:var(--cor-texto-50);
+    border:1px solid var(--cor-texto-50);
     outline-style: none;
     font-size: 17px;
 }

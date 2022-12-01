@@ -1,0 +1,50 @@
+.asideGroup{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 800px;
+    padding-top:40px;
+    box-shadow: 1px 0px 9px var(--cor-texto-80);
+}
+.orderedButtons{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.orderedButtons > button {
+    width: 100%;
+    background-color: white;
+    border: none;
+   
+    border-top: 0.2px solid var(--cor-texto-90) ;
+    border-bottom: 0.2px solid var(--cor-texto-90) ;
+    padding:20px;
+    transition:background 0.3s;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--cor-texto-40);
+}
+.orderedButtons > button:hover{
+    background-color:var( --cor-primary-86) ;
+    color:var( --cor-primary-56) ;
+}
+.orderedButtons > button:focus{
+    background-color:var( --cor-primary-86) ;
+    color:var( --cor-primary-56) ;
+    border-right: 5px solid var( --cor-primary-56);
+    border-radius:1px;
+}
+.produtos{
+    margin-top:-1px;
+}
+.logo{
+    text-align: center;
+}
+.operator > p{
+    font-size:14px;
+    font-family: 'Courier New', Courier, monospace;
+    color:var(--cor-texto-40);
+}
