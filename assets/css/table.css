@@ -1,11 +1,21 @@
+
+
 table{
     width: 100%;
-    border-top: 1px solid var(--cor-texto-60);
-    border-bottom: 1px solid var(--cor-texto-60);
+    padding: 10px 0px 10px 0px;
 }
 th{
     padding: 10px;
     background-color:var(--cor-texto-95);
     font-size:18px;
     text-align: start;
+    font-family: "Barlow";
+    border-top: 1px solid var(--cor-texto-60);
+    border-bottom: 1px solid var(--cor-texto-60);
+}
+td{
+    font-family: "Barlow";
+    padding: 10px;
+    border-bottom: 1px solid var(--cor-texto-80);
+    background-color: hsl(0, 0%, 99%);
 }

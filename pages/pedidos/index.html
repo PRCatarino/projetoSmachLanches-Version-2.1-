@@ -22,8 +22,8 @@
       </div>
       <div class="operator">
         <p>Operador: Marilucia</p>
-        <p>Data - Hora: 12/08/2022 - 13:29</p>
-        <p>Versão: 1.0</p>
+        <p id="time"></p>
+        <p>Versão: 2.1</p>
       </div>
     </aside>
     <section class="pageNewRequest">
@@ -38,7 +38,7 @@
       <div class="searchProduct">
         <label for="">Busca produto</label>
         <input type="number" maxlength="4" class="inputMain" id="productCode" placeholder="Código do produto">
-        <button class="buttonMain">Buscar</button>
+        <button class="buttonMain"><img src="/assets/img/Icons/magnifier.png">Buscar</button>
       </div>
       <div class="infoProduct">
 
@@ -59,7 +59,7 @@
 
       </div>
       <div class="addProduct">
-        <button class="buttonMain" id="addProduct" >Adicionar produto</button>
+        <button class="buttonMain disabled" id="addProduct" disabled><img src="/assets/img/Icons/plusSign.png">Adicionar produto</button>
       </div>
       <table id="bag">
         <tr>
@@ -75,7 +75,7 @@
       </div>
       <div class="actionPage">
         <button class="cancel buttonMain">cancelar</button>
-        <button class="saveOrder buttonMain" onclick="location.href='/'">Salvar pedido</button>
+        <button class="saveOrder buttonMain disabled" disabled onclick="location.href='/'">Salvar pedido</button>
       </div>
     </section>
   </div>

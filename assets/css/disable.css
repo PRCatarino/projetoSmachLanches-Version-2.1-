@@ -1,0 +1,6 @@
+@import url(./color.css);
+
+.disabled{
+    background-color: var(--cor-texto-50)!important;
+    color:var(--cor-texto-95)!important;
+}

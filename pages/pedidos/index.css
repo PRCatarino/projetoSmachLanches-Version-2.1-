@@ -10,6 +10,7 @@
 @import url(/assets/css/titlePage.css);
 @import url(/assets/css/label.css);
 @import url(/assets/css/noRequest.css);
+@import url(/assets//css/disable.css);
 
 .pageNewRequest{
     padding: 20px 10px 0px 30px;
@@ -21,8 +22,9 @@
     width: 200px;
     flex-wrap: wrap;
     gap: 10px;
-    font-weight: bold;
+    color: var(--cor-texto-40);
     margin-bottom:40px;
+    font-family: "Barlow";
 }
 .consumptionType > label{
     width: 100%;
@@ -85,7 +87,7 @@
     width: 100%;
     display: flex;
     justify-content: end;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .addProduct > button{
     background-color: var(--cor-cta-52);
@@ -127,6 +129,7 @@
     color:var(--cor-cta-92) ;
     border:none;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .saveOrder:hover{
     background-color: var(--cor-cta-42);
