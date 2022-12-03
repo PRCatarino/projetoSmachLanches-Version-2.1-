@@ -1,4 +1,5 @@
 import { includeProducts, updateProduct } from '../../pages/produtos'
+//Dar import das funções de buscar todos os produtos e cleanForm
 
 const inputProductName = document.querySelector("#productName");
 const inputProductPrice = document.querySelector("#productPrice");
