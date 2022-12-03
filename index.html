@@ -29,32 +29,34 @@
       <section class="pageAllOrders">
         
         <h1 class="titlePage">Todos os pedidos</h1>
-        <button onclick="location.href='http://127.0.0.1:5502/pages/pedidos/'" class="buttonMain"><img src="/assets/img/Icons/plusSign.png">Novo pedido</button>
+        <button onclick="location.href='http://127.0.0.1:5502/pages/pedidos/'" class="buttonMain" id="newOrder"><img src="/assets/img/Icons/plusSign.png">Novo pedido</button>
 
         <div class="groupActionTable">
           <div class="groupFilter">
             <label for="selectFilter" class="labelFilter">Filtrar por</label>
 
-            <select id="selectFilter" class="selectFilter selectMain">
+            <select id="selectType" class="selectFilter selectMain">
               <option value="" disabled selected>Tipo</option>
               <option>DELIVERY</option>
               <option>SALÃO</option>
             </select>
 
-            <select class="selectFilter selectMain">
+            <select id="selectStatus" class="selectFilter selectMain">
               <option value="" disabled selected>Status</option>
               <option>Recebido</option>
               <option>pronto</option>
               <option>Entregue</option>
             </select>
           </div>
+
           <div class="print">
-            <button class="buttonMain "><img src="/assets/img/Icons/printer.png">Imprimir</button>
+            <button class="buttonMain" id="print"><img src="/assets/img/Icons/printer.png">Imprimir</button>
+            <button class="delete buttonMain">Excluir</button>
           </div>
         </div>
         <table>
           <tr>
-            <th id="requestNumber"><input type="checkbox">N° do pedido</th>
+            <th id="requestNumber"><input type="checkbox" id="checkboxHeader">N° do pedido</th>
             <th id="Itens">Itens</th>
             <th id="type">Tipo</th>
             <th id="value">Valor</th>
